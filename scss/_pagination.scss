@@ -1,0 +1,27 @@
+.pagination {
+  margin-top: 60px;
+  &__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #706262;
+  }
+
+  &__num {
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #432F2F;
+    
+    &--active {
+      color: #ED0707;
+    }
+  }
+}

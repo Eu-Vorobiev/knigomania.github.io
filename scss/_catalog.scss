@@ -1,0 +1,22 @@
+.catalog {
+  background: rgba(232, 167, 69, 0.31);
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 45px;
+    padding: 10px 120px;
+    background: #F1BE71;
+    border-radius: 10px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    color: $black;
+    text-align: center;
+  }
+}

@@ -1,0 +1,30 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    background: #E09F3E;
+    border-radius: 10px;
+    padding: 14px 0px;
+  }
+
+  &__item {
+    margin-left: 80px;
+
+    &:last-child {
+      margin-right: 105px;
+    }
+  }
+
+  &__link {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: $black;
+    transition: all .3s ease-in-out;
+    &:hover, &:focus, &:active {
+      color: #9E2A2B;
+    }
+  }
+}

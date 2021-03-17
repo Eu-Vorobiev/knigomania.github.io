@@ -17,6 +17,12 @@
   }
   &--lg {
     padding: 15px 80px;
+    @media (max-width:767px) {
+      padding: 10px 40px;
+    }
+    @media (max-width:575px) {
+      padding: 6px 25px;
+    }
   }
   &--unique {
     border-radius: 0px 100px;

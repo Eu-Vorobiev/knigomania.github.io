@@ -27,7 +27,7 @@
               <a class="nav__link" href="#">Акції</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#">Каталог</a>
+              <a class="nav__link" href="catalog.html">Каталог</a>
             </li>
             <li class="nav__item">
               <a class="nav__link" href="#">Про магазин</a>
@@ -40,9 +40,34 @@
             </li>
           </ul>
         </nav>
-        <div class="header__shop">
-          <img class="header__shop-img" src="img/cart.svg" alt="Cart">
-          <a class="btn btn--sm header__shop-btn" href="#">Кошик</a>
+        <div class="nav-mobile">
+          <ul class="nav-mobile__list">
+            <li class="nav-mobile__item">
+              <a class="nav-mobile__link" href="#">Акції</a>
+            </li>
+            <li class="nav-mobile__item">
+              <a class="nav-mobile__link" href="information.html">Каталог</a>
+            </li>
+            <li class="nav-mobile__item">
+              <a class="nav-mobile__link" href="#">Про магазин</a>
+            </li>
+            <li class="nav-mobile__item">
+              <a class="nav-mobile__link" href="#">Графік роботи</a>
+            </li>
+            <li class="nav-mobile__item">
+              <a class="nav-mobile__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__bottom">
+          <button class="header__mobile-menu">
+            <span class="header__mobile-line"></span>
+            <p class="header__mobile-text">Меню</p>
+          </button>
+          <div class="header__shop">
+            <img class="header__shop-img" src="img/cart.svg" alt="Cart">
+            <a class="btn btn--sm header__shop-btn" href="#">Кошик</a>
+          </div>
         </div>
       </div>
     </div>
@@ -62,14 +87,14 @@
               <p class="about-card__text">Автор .........................</p>
               <p class="about-card__text">Мова ..........................</p>
               <p class="about-card__text">Рік видання ...........</p>
-              <p class="about-card__text">Перекладач ...........</p>
+              <p class="about-card__text about-card__text--translate">Перекладач ...........</p>
               <p class="about-card__text">К-сть сторінок ......</p>
             </div>
             <div class="about-card__meaning">
               <p class="about-card__text">Шенон А.Чекраборти</p>
               <p class="about-card__text">Українська</p>
               <p class="about-card__text">2020</p>
-              <p class="about-card__text">А. Марков</p>
+              <p class="about-card__text about-card__text--translate">А. Марков</p>
               <p class="about-card__text">213</p>
             </div>
           </div>
@@ -113,7 +138,7 @@
           <a class="footer__contacts-link" href="tel:+380987240665">+38(098)-72-40-665</a>
           <a class="footer__contacts-link" href="tel:+380683271675">+38(068)-32-71-675</a>
         </div>
-        <div class="footer__copyright">&#169; Кингоман  2020-2021. Усі права захищено
+        <div class="footer__copyright">&#169; Книгоман  2020-2021. Усі права захищено
         </div>
 
         <a class="anchor" href="#header">
@@ -125,6 +150,7 @@
     </div>
   </footer>
 
+  <script src="js/common.js"></script>
 </body>
 
 </html>

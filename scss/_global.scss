@@ -11,6 +11,9 @@ html {
 body {
   font-family: $primary-font;
   font-size: 15px;
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 .container {
@@ -18,6 +21,9 @@ body {
   max-width: 1320px;
   padding: 0px 15px;
   margin: 0 auto;
+  @media (max-width: 575px) {
+    max-width: 540px;
+  }
 }
 
 ul,
@@ -46,5 +52,11 @@ img {
 .logo {
   &__img {
     max-height: 59px;
+    @media (max-width:868px) {
+      max-height: 40px;
+    }
+    @media(max-width:696px) {
+      max-height: 59px;
+    }
   }
 }
